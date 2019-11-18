@@ -2,7 +2,7 @@
 - name: assert supported distribution
   assert:
     that:
-      - "ansible_pkg_mgr in ('apt', 'yum', 'dnf', 'zypper', 'homebrew')"
+      - "ansible_pkg_mgr in ('apt', 'yum', 'dnf', 'zypper', 'homebrew','pacman')"
 
 - name: assert supported build
   assert:

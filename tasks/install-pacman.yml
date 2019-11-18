@@ -1,0 +1,5 @@
+- name: install VS Code (pacman)
+  become: yes
+  pacman:
+    name: code
+    state: present
