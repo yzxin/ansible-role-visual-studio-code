@@ -1,5 +1,5 @@
 - name: install VS Code (pacman)
   become: yes
-  pacman:
-    name: code
+  install_aur_by_yay:
+    name: visual-studio-code-bin
     state: present
