@@ -22,7 +22,7 @@ def is_extension_installed(module, executable, name):
 
 
 def list_extension_dirs(module, executable):
-    dirname = '.vscode'
+    dirname = '.vscode-oss'
     if executable == 'code-insiders':
         dirname += '-insiders'
 
